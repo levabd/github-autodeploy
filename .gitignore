@@ -37,3 +37,4 @@ build/
 *.p12
 *.lock
 log/
+.idea/
