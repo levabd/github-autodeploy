@@ -12,3 +12,7 @@ Consist 2 dashboard
 ## Main dash with analytick (1600x900 75% zoom)
 
 ## Develop dash with monitoring sprints and github (FullHD 100% zoom)
+
+# License
+
+Distributed under the [MIT license](LICENSE)
