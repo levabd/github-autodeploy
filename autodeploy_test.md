@@ -1,1 +1,1 @@
-new test
+simple test
