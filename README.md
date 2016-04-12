@@ -1,4 +1,5 @@
 # Nice TV Dashboard
+
 Nice dashboard created with [Dashing](http://shopify.github.io/dashing) Ruby lang.
 
 You can «simple» install this Dashboard in 3 steps
