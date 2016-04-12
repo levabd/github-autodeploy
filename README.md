@@ -7,7 +7,7 @@ You can «simple» install this Dashboard in 3 steps
 2. Clone this repo as dashboard project
 3. Configure variables, sertifikates and tokens
 
-Consist 2 dashboard:
+Consist 2 dashboard
 
 ## Main dash with analytick (1600x900 75% zoom)
 
