@@ -1,0 +1,35 @@
+<script type='text/javascript'>
+$(function() {
+   Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":2,"size_y":2},{"col":3,"row":1,"size_x":2,"size_y":1},{"col":5,"row":1,"size_x":2,"size_y":2},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1},{"col":6,"row":3,"size_x":4,"size_y":4}]')
+});
+  Dashing.widget_base_dimensions = [230, 250]
+  Dashing.numColumns = 12
+</script>
+
+
+<% content_for :title do %>TV Wipon dashboard<% end %>
+
+<div class="gridster">
+  <ul>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="2">
+      <div data-id="uptimerobot" data-view="Uptimerobot"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-view="PullRequests" data-id="PR_WIDGET_DATA_ID"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="github_feed" data-view="GithubFeed" data-title="Github News Feed"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="codeship-0ab6c7b0-2bf5-0134-d1fe-36de6e3da152" data-view="Codeship" data-title="API Build"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="codeship-9a9437e0-5748-0134-4400-2a1cd9b4d466" data-view="Codeship" data-title="Cabinet Build"></div>
+    </li>
+
+  </ul>
+</div>

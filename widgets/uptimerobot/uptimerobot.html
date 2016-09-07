@@ -1,0 +1,11 @@
+<h1>Состояние серверов</h1>
+
+<ul class="list-nostyle">
+  <li class="monitor" data-foreach-monitor="monitors" data-bind-class="monitor.status">
+    <div class="label" data-bind="monitor.friendlyname"></div>
+    <div class="value" data-bind="monitor.value"></div>
+  </li>
+</ul>
+
+<br />
+<p class="updated-at" data-bind="updatedAtMessage"></p>

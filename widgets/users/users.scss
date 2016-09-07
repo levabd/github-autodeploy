@@ -1,0 +1,57 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #0088cc;
+$title-color:       #ffffff;
+
+// ----------------------------------------------------------------------------
+// Widget-comment styles
+// ----------------------------------------------------------------------------
+.widget-users { 
+  
+  background: $background-color url('../assets/wipon_dash.png') no-repeat 50% 50%;
+  
+  .title {
+    font-weight: bold;
+    color: $title-color;
+    opacity: .9
+  }
+
+  .users-container {
+    div > div {
+      font-size: 24px
+    }
+  }
+
+  hr {
+    border-style: solid;
+    color: #ccc;
+  }
+
+  .total-users {
+    font-size: 76px;
+    color: $title-color;
+    #total-users-integer-value {
+      font-weight: bold;
+    }
+  }
+
+  .android-users {
+    font-size: 1.5em;
+    color: $title-color;
+    text-align: left;
+    #android-users-value {
+      font-weight: bold
+    }
+  }
+
+  .ios-users {
+    font-size: 1.5em;
+    color: $title-color;
+    text-align: left;
+    #ios-users-value {
+      font-weight: bold
+    }
+  }
+
+}

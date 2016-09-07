@@ -1,0 +1,67 @@
+<script type='text/javascript'>
+$(function() {
+   Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":1,"row":3,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":2,"size_y":2},{"col":2,"row":3,"size_x":1,"size_y":1},{"col":3,"row":3,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":3,"size_y":2},{"col":4,"row":3,"size_x":1,"size_y":1},{"col":5,"row":3,"size_x":1,"size_y":1},{"col":6,"row":3,"size_x":1,"size_y":1}]')
+});
+  Dashing.widget_base_dimensions = [280, 250]
+  Dashing.numColumns = 8
+</script>
+
+
+<% content_for :title do %>TV Wipon dashboard<% end %>
+
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"> 
+        <div data-id="wipon_mobile_visitor_count_real_time" data-view="Graph" data-title="Сейчас в приложении" style="background-color:#0088cc;"></div> 
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"> 
+        <div data-id="wipon_cabinet_visitor_count_real_time" data-view="Graph" data-title="Сейчас в кабинете"  style="background-color:#47bbb3;"></div> 
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"> 
+        <div data-id="wipon_site_visitor_count_real_time" data-view="Graph" data-title="Сейчас на сайте" style="background-color:#aaa;"></div> 
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="2"> 
+      <div data-id="wipon_mobile_total_user_count" data-view="Users" data-title="Общее количество пользователей."></div> 
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="andorid_review_mobile" data-view="Playmarket" data-title="Google Play"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="app_store_rating" data-view="Appstore" data-title="App Store"></div>
+    </li>
+
+    <li data-row="2" data-col="3" data-sizex="3" data-sizey="2"> 
+      <div data-id="wipon_mobile_user_graph" data-view="UsersGraph" data-title="График использования приложения"></div> 
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="mobile_countries" data-view="List" data-title="Top стран ЗА МЕСЯЦ" style="background-color:#0088cc;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="mobile_regions" data-view="List" data-title="Top городов ЗА МЕСЯЦ" style="background-color:#0088cc;"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="mobile_month_versions" data-view="List" data-title="Текущие используемые версии (месяц)" style="background-color:#0088cc;"></div>
+    </li>
+
+    <!--li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="mobile_month_pages" data-view="List" data-title="Top страниц ЗА МЕСЯЦ" style="background-color:#0088cc;"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="mobile_month_devices" data-view="List" data-title="Top устройств ЗА МЕСЯЦ" style="background-color:#0088cc;"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="mobile_month_devices2" data-view="List" data-title="Top устройств ЗА МЕСЯЦ" style="background-color:#0088cc;"></div>
+    </li-->
+
+  </ul>
+</div>
