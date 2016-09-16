@@ -17,6 +17,8 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     white-space: pre-wrap;
     word-wrap: break-word;
     margin: 0 0 0 0;
+    max-height: 15px;
+    overflow: hidden;
   }
 
   .header {
@@ -47,8 +49,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     }
 
     .gh-feed-title-message {
-      padding-left: 10px;
-      float: left;
+      padding-left: 55px;
       vertical-align: top;
       width: 450px;
       text-align: left;
@@ -71,9 +72,9 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   }
 
   .icon.icon-github {
-    font-size: 58px;
-    height: 58px;
-    width: 66px;
+    font-size: 25px;
+    height: 25px;
+    width: 32px;
   }
 
   .more-info {

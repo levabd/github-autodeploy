@@ -104,7 +104,7 @@ end
 user         = "your user name in the organization"
 org          = "name of your organization"
 token        = "token"
-hist_size    = 5
+hist_size    = 12
 
 SCHEDULER.every '30s', :first_in => 0 do
   feed = GithubFeed.new(user, org, token)

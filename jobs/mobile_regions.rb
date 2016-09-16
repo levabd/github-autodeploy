@@ -47,8 +47,8 @@ SCHEDULER.every '6h', :first_in => 0 do |job|
 
   items = Array.new 
 
-  for i in 1..5
-     items[i-1] = {
+  for i in 0..5
+     items[i] = {
        label: regions[i][0],
        value: regions[i][1],
      }
