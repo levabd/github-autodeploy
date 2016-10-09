@@ -22,7 +22,7 @@ Consist 2 dashboard
 - Top 5 mobile app version for GA account for last 30 days
 - Users chart for GA account 
 
-![](./public/doc/main.png?raw=true)
+![](./public/main.png?raw=true)
 
 ## Develop dash with monitoring sprints and github (FullHD 100% zoom)
 
@@ -31,7 +31,7 @@ Consist 2 dashboard
 - Codeship build status
 - Github org news feed 
 
-![](./public/doc/develop.png?raw=true)
+![](./public/develop.png?raw=true)
 
 # License
 
