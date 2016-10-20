@@ -59,16 +59,7 @@ SCHEDULER.every '6h', :first_in => 0 do
     'dimensions' => "ga:operatingSystem",
     'metrics' => "ga:users",
     # 'sort' => "ga:month" 
-  }).data.rows[3][1].to_i + 
-  client.execute(:api_method => analytics.data.ga.get, :parameters => { 
-    'ids' => "ga:" + profileID, 
-    'start-date' => startDate,
-    'end-date' => endDate,
-    'dimensions' => "ga:operatingSystem",
-    'metrics' => "ga:users",
-    # 'sort' => "ga:month" 
   }).data.rows[6][1].to_i
-
 
   # Update the dashboard
   send_event('wipon_mobile_total_user_count',   data)
