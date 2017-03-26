@@ -1,0 +1,46 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #4b5f24;
+
+// ----------------------------------------------------------------------------
+// Widget-play-reviews styles
+// ----------------------------------------------------------------------------
+.widget-play-reviews {
+  background-color: $background-color;
+
+  font-size: 15px;
+
+  .star.star-rating-non-editable-container {
+    height: 48px;
+    width: 240px;
+    margin: 0 auto;
+    background-image: url('../assets/star_empty.png');
+    -webkit-background-size: contain;
+    background-size: contain
+  }
+
+  .star .current-rating {
+    height: 48px;
+    width: 0%;
+    background-image: url('../assets/star_full.png');
+    -webkit-background-size: contain;
+    background-size: contain
+  }
+
+  .review-text {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .review-title {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .quoted-review {
+    margin: 10px 0;
+    width: 446px;
+  }
+
+}
